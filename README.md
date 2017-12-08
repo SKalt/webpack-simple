@@ -3,6 +3,9 @@
 > A simple Vue 2.0 Webpack & `vue-loader` setup for quick prototyping. Note this template is not suitable for production - for that you may want to wait for an official 2.0 webpack template.
 
 > This template is Vue 2.0 compatible. For Vue 1.x use this command: `vue init webpack-simple#1.0 my-project`
+### Why use the -brusque fork?
+It contains template components in template/.templates rather than the HelloWorld.vue app so you can cut the chit-chat and
+get straight to protoyping.
 
 ### Usage
 
@@ -14,6 +17,9 @@ $ vue init webpack-simple my-project
 $ cd my-project
 $ npm install
 $ npm run dev
+# you can also generate components from templates:
+$ cp .templates/component.vue components/new-component.vue
+$ cp -r .templates/component/ components/new-component/
 ```
 
 ### What's Included
